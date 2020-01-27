@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[contains(text(),'MiX Automation Live Unit (CA-BING) -- Sub-trip end')]/ancestor::tr"
+}

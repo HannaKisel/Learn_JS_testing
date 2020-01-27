@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//tr[contains(text(),'Townhall Daily - Jan 27 - Kurt Schlichter,Mark Davis,Kevin McCullough,Scott Morefield,Todd Bensman and More']/td"
+}

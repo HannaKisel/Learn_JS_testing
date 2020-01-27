@@ -1,0 +1,131 @@
+{
+  "uid" : "a1b86f7388c898fc",
+  "name" : "\"Get Text\" page should be opened",
+  "fullName" : "My first JS test.\"Get Text\" page should be opened",
+  "historyId" : "ffc25d4b9b5e6b0aa8878c1c447f3a56",
+  "time" : {
+    "start" : 1579781451709,
+    "stop" : 1579781452145,
+    "duration" : 436
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1579781451709,
+        "stop" : 1579781451720,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13812e9e29d36384",
+        "name" : "Request",
+        "source" : "13812e9e29d36384.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "78b7069c2575e9c3",
+        "name" : "Response",
+        "source" : "78b7069c2575e9c3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2ad3faf9-aa12-4348-b6de-e1b5050231a9/click",
+      "time" : {
+        "start" : 1579781451721,
+        "stop" : 1579781452138,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1579781452138,
+        "stop" : 1579781452145,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd4bcf504ba52a3d",
+        "name" : "Response",
+        "source" : "fd4bcf504ba52a3d.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My first JS test"
+  }, {
+    "name" : "testClass",
+    "value" : "My first JS test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"Get Text\" page should be opened"
+  }, {
+    "name" : "package",
+    "value" : "My first JS test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1b86f7388c898fc.json",
+  "parameterValues" : [ "chrome" ]
+}

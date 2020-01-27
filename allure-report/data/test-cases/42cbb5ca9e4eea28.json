@@ -1,0 +1,110 @@
+{
+  "uid" : "42cbb5ca9e4eea28",
+  "name" : "should display the correct homepage title",
+  "fullName" : "ASOS homepage.should display the correct homepage title",
+  "historyId" : "fc0239e19e6326f9ad9dc8e9edc4bf0c",
+  "time" : {
+    "start" : 1579781449030,
+    "stop" : 1579781451062,
+    "duration" : 2032
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1579781449068,
+        "stop" : 1579781451054,
+        "duration" : 1986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39c29b1f49c1ea1c",
+        "name" : "Request",
+        "source" : "39c29b1f49c1ea1c.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1579781451054,
+        "stop" : 1579781451061,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfdc77d91ca5ca11",
+        "name" : "Response",
+        "source" : "dfdc77d91ca5ca11.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ASOS homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "ASOS homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should display the correct homepage title"
+  }, {
+    "name" : "package",
+    "value" : "ASOS homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42cbb5ca9e4eea28.json",
+  "parameterValues" : [ "chrome" ]
+}

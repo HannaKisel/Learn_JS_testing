@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//tr[@class='[MiX Automation Live Unit (CA-BING) -- Over speeding]'/td"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[contains(text(),'Pre-market summary on your portfolio reit')]/ancestor::tr"
+}

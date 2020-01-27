@@ -1,0 +1,108 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ASOS homepage",
+    "children" : [ {
+      "name" : "should display the correct homepage title",
+      "uid" : "42cbb5ca9e4eea28",
+      "parentUid" : "483011ada2d496f8370db085ae0c1997",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781449030,
+        "stop" : 1579781451062,
+        "duration" : 2032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "483011ada2d496f8370db085ae0c1997"
+  }, {
+    "name" : "My first JS test",
+    "children" : [ {
+      "name" : "Search popup should be displayed",
+      "uid" : "d16b897c543cb64d",
+      "parentUid" : "f93b27c517473c67ba8f7d59a35e1dba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781449031,
+        "stop" : 1579781451709,
+        "duration" : 2678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"Get Text\" page should be opened",
+      "uid" : "27116bae0b6332b",
+      "parentUid" : "f93b27c517473c67ba8f7d59a35e1dba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781451709,
+        "stop" : 1579781452145,
+        "duration" : 436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify initial and last step URL-s",
+      "uid" : "b88f27541dbca73e",
+      "parentUid" : "f93b27c517473c67ba8f7d59a35e1dba",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579781452145,
+        "stop" : 1579781452685,
+        "duration" : 540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f93b27c517473c67ba8f7d59a35e1dba"
+  }, {
+    "name" : "My second JS test",
+    "children" : [ {
+      "name" : "Search popup should be displayed",
+      "uid" : "71e3177e356036ab",
+      "parentUid" : "12284de8b52f792a8b5ff159a3f55b05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781452693,
+        "stop" : 1579781454084,
+        "duration" : 1391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"Get Text\" page should be opened",
+      "uid" : "5579ff37922f545e",
+      "parentUid" : "12284de8b52f792a8b5ff159a3f55b05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781454084,
+        "stop" : 1579781454394,
+        "duration" : 310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify  initial and last step URL-s ",
+      "uid" : "6b30f3d3e82f0b96",
+      "parentUid" : "12284de8b52f792a8b5ff159a3f55b05",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579781454394,
+        "stop" : 1579781454956,
+        "duration" : 562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "12284de8b52f792a8b5ff159a3f55b05"
+  } ]
+}

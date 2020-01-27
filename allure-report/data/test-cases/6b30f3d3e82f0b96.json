@@ -1,0 +1,139 @@
+{
+  "uid" : "6b30f3d3e82f0b96",
+  "name" : "Verify  initial and last step URL-s ",
+  "fullName" : "My second JS test.Verify  initial and last step URL-s ",
+  "historyId" : "742084f5f969e145b435e5ea860b7d1c",
+  "time" : {
+    "start" : 1579781454394,
+    "stop" : 1579781454956,
+    "duration" : 562
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected false to be true",
+  "statusTrace" : "AssertionError: expected false to be true\n                    at Context.<anonymous> (C:\\Users\\h.kisel\\WDIO2\\test\\specs\\test.spec.js:53:16)\n                    at Context.executeSync (C:\\Users\\h.kisel\\WDIO2\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\h.kisel\\WDIO2\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected false to be true",
+    "statusTrace" : "AssertionError: expected false to be true\n                    at Context.<anonymous> (C:\\Users\\h.kisel\\WDIO2\\test\\specs\\test.spec.js:53:16)\n                    at Context.executeSync (C:\\Users\\h.kisel\\WDIO2\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\h.kisel\\WDIO2\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1579781454394,
+        "stop" : 1579781454401,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a034e52de91043a4",
+        "name" : "Response",
+        "source" : "a034e52de91043a4.json",
+        "type" : "application/json",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1579781454401,
+        "stop" : 1579781454707,
+        "duration" : 306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9cc0e31dfaecce4",
+        "name" : "Screenshot",
+        "source" : "c9cc0e31dfaecce4.png",
+        "type" : "image/png",
+        "size" : 70640
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1579781454708,
+        "stop" : 1579781454955,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fc634a89a375be2",
+        "name" : "Screenshot",
+        "source" : "3fc634a89a375be2.png",
+        "type" : "image/png",
+        "size" : 70640
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My second JS test"
+  }, {
+    "name" : "testClass",
+    "value" : "My second JS test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify  initial and last step URL-s "
+  }, {
+    "name" : "package",
+    "value" : "My second JS test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b30f3d3e82f0b96.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 23 15:10:52 MSK 2020","Thu Jan 23 15:10:54 MSK 2020","1391","","My second JS test","","My second JS test","Search popup should be displayed","Search popup should be displayed",""
+"passed","Thu Jan 23 15:10:54 MSK 2020","Thu Jan 23 15:10:54 MSK 2020","310","","My second JS test","","My second JS test","""Get Text"" page should be opened","""Get Text"" page should be opened",""
+"passed","Thu Jan 23 15:10:49 MSK 2020","Thu Jan 23 15:10:51 MSK 2020","2032","","ASOS homepage","","ASOS homepage","should display the correct homepage title","should display the correct homepage title",""
+"failed","Thu Jan 23 15:10:54 MSK 2020","Thu Jan 23 15:10:54 MSK 2020","562","","My second JS test","","My second JS test","Verify  initial and last step URL-s ","Verify  initial and last step URL-s ",""
+"failed","Thu Jan 23 15:10:52 MSK 2020","Thu Jan 23 15:10:52 MSK 2020","540","","My first JS test","","My first JS test","Verify initial and last step URL-s","Verify initial and last step URL-s",""
+"passed","Thu Jan 23 15:10:51 MSK 2020","Thu Jan 23 15:10:52 MSK 2020","436","","My first JS test","","My first JS test","""Get Text"" page should be opened","""Get Text"" page should be opened",""
+"passed","Thu Jan 23 15:10:49 MSK 2020","Thu Jan 23 15:10:51 MSK 2020","2678","","My first JS test","","My first JS test","Search popup should be displayed","Search popup should be displayed",""

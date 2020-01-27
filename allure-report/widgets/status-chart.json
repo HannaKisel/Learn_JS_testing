@@ -1,0 +1,71 @@
+[ {
+  "uid" : "71e3177e356036ab",
+  "name" : "Search popup should be displayed",
+  "time" : {
+    "start" : 1579781452693,
+    "stop" : 1579781454084,
+    "duration" : 1391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5579ff37922f545e",
+  "name" : "\"Get Text\" page should be opened",
+  "time" : {
+    "start" : 1579781454084,
+    "stop" : 1579781454394,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42cbb5ca9e4eea28",
+  "name" : "should display the correct homepage title",
+  "time" : {
+    "start" : 1579781449030,
+    "stop" : 1579781451062,
+    "duration" : 2032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b30f3d3e82f0b96",
+  "name" : "Verify  initial and last step URL-s ",
+  "time" : {
+    "start" : 1579781454394,
+    "stop" : 1579781454956,
+    "duration" : 562
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b88f27541dbca73e",
+  "name" : "Verify initial and last step URL-s",
+  "time" : {
+    "start" : 1579781452145,
+    "stop" : 1579781452685,
+    "duration" : 540
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27116bae0b6332b",
+  "name" : "\"Get Text\" page should be opened",
+  "time" : {
+    "start" : 1579781451709,
+    "stop" : 1579781452145,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d16b897c543cb64d",
+  "name" : "Search popup should be displayed",
+  "time" : {
+    "start" : 1579781449031,
+    "stop" : 1579781451709,
+    "duration" : 2678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

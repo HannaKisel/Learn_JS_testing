@@ -1,0 +1,233 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1580128079395' stop='1580128117363'>
+    <name>mailinator test</name>
+    <title>mailinator test</title>
+    <test-cases>
+        <test-case start='1580128079396' status='passed' stop='1580128087250'>
+            <name>Check recipient name</name>
+            <title>Check recipient name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580128079458' status='passed' stop='1580128080327'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cdc238c5-4c7f-49f7-8402-759ca427877d-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128080328' status='passed' stop='1580128080339'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='591c33bd-81e4-4169-9c3a-11a1afce87bf-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='43188c82-e0b6-4de1-966a-5f2f08c24ca3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128080343' status='passed' stop='1580128080367'>
+                    <name>POST /session/:sessionId/element/23b66e66-a95f-45fc-ad63-932e40769edb/clear</name>
+                    <title>POST /session/:sessionId/element/23b66e66-a95f-45fc-ad63-932e40769edb/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1580128080370' status='passed' stop='1580128080389'>
+                    <name>POST /session/:sessionId/element/23b66e66-a95f-45fc-ad63-932e40769edb/value</name>
+                    <title>POST /session/:sessionId/element/23b66e66-a95f-45fc-ad63-932e40769edb/value</title>
+                    <attachments>
+                        <attachment title='Request' source='d8ea4892-8730-4922-80c0-e8e34f9ad5d2-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128080390' status='passed' stop='1580128080399'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5c25097c-76ab-4a4f-a957-6fc1be5f6a5c-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='8bf44648-ffdf-469e-9127-d782deeac130-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128080401' status='passed' stop='1580128080407'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='15c9b993-a146-4f5f-b678-13c6b6626881-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='b6af0da2-85c0-401d-8592-05f91452f52f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128080407' status='passed' stop='1580128081112'>
+                    <name>POST /session/:sessionId/element/8d1852c1-e311-4438-b840-aad64f170757/click</name>
+                    <title>POST /session/:sessionId/element/8d1852c1-e311-4438-b840-aad64f170757/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1580128084114' status='passed' stop='1580128084137'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2b1717d9-1fe8-4be4-b37a-7b79da60b804-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='03de1772-35b1-441d-9f64-afd119556305-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128084140' status='passed' stop='1580128084151'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b5c78ea8-3abe-4a97-bc81-80b5785caf85-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='6b12faf4-0a69-4127-aecd-752dc14d02a3-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128084151' status='passed' stop='1580128084161'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='8173d2d9-901c-4f23-b54d-8403d550776d-attachment.json' type='application/json' size='3740'/>
+                        <attachment title='Response' source='0bf24bbb-98b4-403f-82e8-f4cb35c78299-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128084161' status='passed' stop='1580128084202'>
+                    <name>POST /session/:sessionId/element/8a76af04-2c9e-4688-a992-a8e7adb0d692/click</name>
+                    <title>POST /session/:sessionId/element/8a76af04-2c9e-4688-a992-a8e7adb0d692/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1580128087203' status='passed' stop='1580128087214'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2d9c4edf-4de2-41d2-8ce6-d2bd03c46e1d-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='ff85c905-fb02-43f4-9446-89a35f509c2d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128087216' status='passed' stop='1580128087227'>
+                    <name>GET /session/:sessionId/element/92583c9c-31e5-4caf-aeb8-4c4559d7ba24/text</name>
+                    <title>GET /session/:sessionId/element/92583c9c-31e5-4caf-aeb8-4c4559d7ba24/text</title>
+                    <attachments>
+                        <attachment title='Response' source='53f7d3bc-0f32-4a68-8ae5-2c79a3fc2527-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128087227' status='passed' stop='1580128087237'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='78f3d694-8d62-429b-bd56-eb7894c0650f-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='06692a59-97cb-4bf3-a7f0-d98a5e2a6cb3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128087238' status='passed' stop='1580128087249'>
+                    <name>GET /session/:sessionId/element/7e40cffe-eef4-471b-a072-4105ccf61027/text</name>
+                    <title>GET /session/:sessionId/element/7e40cffe-eef4-471b-a072-4105ccf61027/text</title>
+                    <attachments>
+                        <attachment title='Response' source='546b027b-19c6-46e4-82c2-edb562f596b2-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1580128087250' status='passed' stop='1580128087280'>
+            <name>Check mail date</name>
+            <title>Check mail date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580128087257' status='passed' stop='1580128087267'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8f132d2d-4da8-4206-86bb-7b6602b208f7-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='19e845a2-fa14-4132-967d-207d8cd9d62d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128087269' status='passed' stop='1580128087279'>
+                    <name>GET /session/:sessionId/element/acee7371-8e45-4875-b3a6-19f3266d69e7/text</name>
+                    <title>GET /session/:sessionId/element/acee7371-8e45-4875-b3a6-19f3266d69e7/text</title>
+                    <attachments>
+                        <attachment title='Response' source='788fc071-e689-48a5-9928-b08078e38d47-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1580128087280' status='broken' stop='1580128117363'>
+            <name>Delete selected email</name>
+            <title>Delete selected email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580128087280' status='passed' stop='1580128087291'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6b310e02-ecf0-47ec-9738-ab15483b345c-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='ad36d081-b017-43e1-9e59-81a6a8c8b496-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580128087294' status='passed' stop='1580128087336'>
+                    <name>POST /session/:sessionId/element/a11564ae-c32b-432f-8201-ee65049a7c14/click</name>
+                    <title>POST /session/:sessionId/element/a11564ae-c32b-432f-8201-ee65049a7c14/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1580128117336' status='broken' stop='1580128117363'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d81fba87-652c-4e94-8bd0-475ac10720fc-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //tr[@class=['MiX Automation Live Unit (CA-BING) -- Over speeding']/td because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//tr[@class=['MiX Automation Live Unit (CA-BING) -- Over speeding']/td' is not a valid XPath expression.
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //tr[@class=['MiX Automation Live Unit (CA-BING) -- Over speeding']/td because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//tr[@class=['MiX Automation Live Unit (CA-BING) -- Over speeding']/td' is not a valid XPath expression.
+                  (Session info: chrome=79.0.3945.130)
+                    at getErrorFromResponseBody (C:\Users\h.kisel\WDIO2\node_modules\webdriver\build\utils.js:124:10)
+                    at Request._callback (C:\Users\h.kisel\WDIO2\node_modules\webdriver\build\request.js:111:64)
+                    at Request.self.callback (C:\Users\h.kisel\WDIO2\node_modules\request\request.js:185:22)
+                    at Request.&lt;anonymous> (C:\Users\h.kisel\WDIO2\node_modules\request\request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\h.kisel\WDIO2\node_modules\request\request.js:1083:12)
+                    at Browser.runCommandWithHooks (C:\Users\h.kisel\WDIO2\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\h.kisel\WDIO2\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (C:\Users\h.kisel\WDIO2\node_modules\@wdio\runner\build\index.js:192:36)
+                    at Context.&lt;anonymous> (C:\Users\h.kisel\WDIO2\test\specs\mail.spec.js:75:33)
+                    at Context.executeSync (C:\Users\h.kisel\WDIO2\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\h.kisel\WDIO2\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

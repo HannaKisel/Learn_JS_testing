@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[@class=\"even pointer ng-scope\"]/td\"}\n  (Session info: chrome=79.0.3945.130)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00E6A113+1548563]\n\tOrdinal0 [0x00DEDDA1+1039777]\n\tOrdinal0 [0x00D6E485+517253]\n\tOrdinal0 [0x00D08539+99641]\n\tOrdinal0 [0x00D23BB0+211888]\n\tOrdinal0 [0x00D197B0+169904]\n\tOrdinal0 [0x00D22594+206228]\n\tOrdinal0 [0x00D195FB+169467]\n\tOrdinal0 [0x00D0160A+71178]\n\tOrdinal0 [0x00D02690+75408]\n\tOrdinal0 [0x00D02629+75305]\n\tOrdinal0 [0x00E071B7+1143223]\n\tGetHandleVerifier [0x00F02B46+507814]\n\tGetHandleVerifier [0x00F02864+507076]\n\tGetHandleVerifier [0x00F09F47+537511]\n\tGetHandleVerifier [0x00F03402+510050]\n\tOrdinal0 [0x00DFF29C+1110684]\n\tOrdinal0 [0x00E0938B+1151883]\n\tOrdinal0 [0x00E094F3+1152243]\n\tOrdinal0 [0x00E083F5+1147893]\n\tBaseThreadInitThunk [0x75546359+25]\n\tRtlGetAppContainerNamedObjectPath [0x774A7B74+228]\n\tRtlGetAppContainerNamedObjectPath [0x774A7B44+180]\n"
+}

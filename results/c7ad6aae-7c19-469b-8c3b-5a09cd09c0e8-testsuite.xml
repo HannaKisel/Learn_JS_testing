@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1579860621387' stop='1579860622150'>
+    <name>mailinator test</name>
+    <title>mailinator test</title>
+    <test-cases>
+        <test-case start='1579860621388' status='broken' stop='1579860622150'>
+            <name>Check recipient</name>
+            <title>Check recipient</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1579860621446' status='passed' stop='1579860622074'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='aa87ad9b-57c9-4379-84bc-d3d4a1a9d134-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1579860622075' status='passed' stop='1579860622090'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='18336cdf-ba1b-4f2c-8e62-c9c653031344-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='1f5b9d8a-09ac-4209-b544-82c1303eefac-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1579860622094' status='passed' stop='1579860622115'>
+                    <name>POST /session/:sessionId/element/a02140f6-7925-4da9-bc3f-97d7556788f6/clear</name>
+                    <title>POST /session/:sessionId/element/a02140f6-7925-4da9-bc3f-97d7556788f6/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1579860622117' status='passed' stop='1579860622137'>
+                    <name>POST /session/:sessionId/element/a02140f6-7925-4da9-bc3f-97d7556788f6/value</name>
+                    <title>POST /session/:sessionId/element/a02140f6-7925-4da9-bc3f-97d7556788f6/value</title>
+                    <attachments>
+                        <attachment title='Request' source='a397084c-af55-48c6-b4a3-681d65ddd163-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1579860622137' status='passed' stop='1579860622147'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='872c01b8-d6fb-4a60-9a2a-debdb7c56e64-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='eebd7359-bafe-4006-9f86-b7121eb842e1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>goButton.displayed is not a function</message>
+                <stack-trace>TypeError: goButton.displayed is not a function
+                    at Context.&lt;anonymous> (C:\Users\h.kisel\WDIO2\test\specs\mail.spec.js:10:53)
+                    at Context.executeSync (C:\Users\h.kisel\WDIO2\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\h.kisel\WDIO2\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[contains(text(),'MiX Automation Live Unit (CA-BING) /MiX Driver (9) -- Road Speed Overspeeding')]/ancestor::tr"
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected -1 to be false",
+      "children" : [ {
+        "name" : "Verify initial and last step URL-s",
+        "uid" : "6ed52934156252ba",
+        "parentUid" : "74ad6eb074a45a5d83182bbac6dc7ce9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579781452145,
+          "stop" : 1579781452685,
+          "duration" : 540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "74ad6eb074a45a5d83182bbac6dc7ce9"
+    }, {
+      "name" : "expected false to be true",
+      "children" : [ {
+        "name" : "Verify  initial and last step URL-s ",
+        "uid" : "2f975a1bb5ab9ebb",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579781454394,
+          "stop" : 1579781454956,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "81d949b8b4ac1baf44f7f368cbfa0d33"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
